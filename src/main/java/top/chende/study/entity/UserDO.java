@@ -9,7 +9,7 @@ import javax.persistence.Table;
 import java.util.HashMap;
 
 @Data
-//@Table(name = "user")
+@Table(name = "user_do_123")
 @Entity
 public class UserDO {
 
