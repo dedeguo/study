@@ -9,6 +9,8 @@
         <module>kafka</module>
         <module>web</module>
         <module>cas</module>
+        <module>activemq</module>
+        <module>jsvc-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
