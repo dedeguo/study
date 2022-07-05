@@ -31,7 +31,7 @@ public class App
     }
 
     public void createNode() throws Exception {
-        String str = zkClient.create("/lagou", "laosun".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+        String str = zkClient.create("/tws", "laosun".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
         System.out.println("已创建节点: " + str);
     }
 

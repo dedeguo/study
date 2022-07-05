@@ -1,4 +1,4 @@
-package top.chende.study;
+package top.chende.study.stream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;

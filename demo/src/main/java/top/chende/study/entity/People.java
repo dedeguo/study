@@ -1,9 +1,20 @@
 package top.chende.study.entity;
 
-public class People {
+import java.io.Serializable;
 
+public class People implements Serializable {
+
+    String id;
     String name;
     String age;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;

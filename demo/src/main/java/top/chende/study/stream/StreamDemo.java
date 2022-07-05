@@ -1,4 +1,4 @@
-package top.chende.study;
+package top.chende.study.stream;
 
 
 import top.chende.study.entity.People;
