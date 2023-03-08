@@ -18,6 +18,7 @@
         <module>zookeeper</module>
         <module>util</module>
         <module>demo</module>
+        <module>spring-security</module>
     </modules>
 
     <properties>
